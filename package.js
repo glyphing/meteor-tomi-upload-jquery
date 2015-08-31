@@ -8,7 +8,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
 
-  api.use(['tap:i18n'], 'client');
+  api.use(['tap:i18n']);
   api.use(['reactive-var', 'templating'], 'client');
 
   api.addFiles('package-tap.i18n');

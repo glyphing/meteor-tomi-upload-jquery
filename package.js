@@ -10,6 +10,8 @@ Package.onUse(function(api) {
 
   api.use(['reactive-var', 'templating'], 'client');
 
+  api.addFiles('package-tap.i18n');
+
   api.addFiles([
     'lib/vendor/jquery.ui.widget.js',
     'lib/jquery.iframe-transport.js',
@@ -27,6 +29,12 @@ Package.onUse(function(api) {
     'templates/dropzone.html',
     'templates/dropzone.js',
     'uploader.js'], 'client');
+
+  // after the templates
+  api.addFiles([
+    'i18n/en.i18n.json',
+    'i18n/de.i18n.json'
+  ]);
 
   api.export('Uploader', 'client');
 });

@@ -6,14 +6,6 @@ Uploader = {
       console.log(text);
     }
   },
-  localisation: {
-    browse: "Browse",
-    cancelled: "Cancelled",
-    remove: "Remove",
-    upload: "Upload",
-    done: "Done",
-    cancel: "Cancel"
-  },
   UI: {
     bootstrap: {
       upload: 'btn btn-primary btn-file upload-control',

@@ -1,7 +1,3 @@
-Template.registerHelper('ut9n', function (key){
-    return Uploader.localisation[key];
-});
-
 // each upload_multiple template instance holds its own local collection of files list
 Template['upload'].created = function () {
   Uploader.init(this);

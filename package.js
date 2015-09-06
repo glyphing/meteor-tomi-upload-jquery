@@ -1,7 +1,7 @@
 Package.describe({
   name: 'gly:upload-jquery',
   summary: 'Client template for uploads using "jquery-file-upload" from blueimp',
-  version: '2.1.7.1',
+  version: '2.1.8',
   git: 'https://github.com/glyphing/meteor-tomi-upload-jquery.git',
   documentation: 'README.md'
 });

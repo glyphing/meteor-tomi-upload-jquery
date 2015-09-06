@@ -189,6 +189,13 @@ Uploader = {
       add: function (e, data) {
         Uploader.log(Uploader.logLevels.debug, 'render.add ');
 
+        // get dynamic formData
+        if (dataContext != null &&
+            dataContext.callbacks != null &&
+            dataContext.callbacks.getDynamicFormData != null ) {
+          data.formData = dataContext.callbacks.getDynamicFormData();
+        }
+
         // validate before adding
         if (dataContext != null &&
             dataContext.callbacks != null &&

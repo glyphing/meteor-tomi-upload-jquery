@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'tomi:upload-jquery',
+  name: 'gly:upload-jquery',
   summary: 'Client template for uploads using "jquery-file-upload" from blueimp',
   version: '2.1.7',
   git: 'https://github.com/tomitrescak/meteor-tomi-upload-jquery.git'

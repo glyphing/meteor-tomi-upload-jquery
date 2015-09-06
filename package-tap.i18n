@@ -1,5 +1,5 @@
 {
-    "translation_function_name": "__", 
-    "helper_name": "_", 
-    "namespace": "glyphing_upload" 
+    "translation_function_name": "__",
+    "helper_name": "_",
+    "namespace": "gly_upload_jquery"
 }

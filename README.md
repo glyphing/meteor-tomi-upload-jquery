@@ -1,3 +1,13 @@
+This package is a fork of the package [`tomi:upload-jquery`](https://atmospherejs.com/tomi/upload-jquery).
+
+Differences:
+* internationalization with [`tap:i18n`](https://atmospherejs.com/tap/i18n).
+* dynamic formData (the forked package is not reactive on the *formData* context element)
+
+It follows the description of the forked package.
+
+--------
+
 This is a client interface package for the [Meteor Uploads](https://github.com/tomitrescak/meteor-uploads)
 
 Use via {{> upload_bootstrap}}
